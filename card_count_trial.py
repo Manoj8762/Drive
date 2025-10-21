@@ -8,4 +8,5 @@ def level(n):
     for i in range(2,n+1):
         card[i]=((i*2)+(i-1)+(card[i-1]))%1000007
     return card[1:]
+return card[1:]
 print(level(7))
